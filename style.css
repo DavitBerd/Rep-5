@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+    border: 5px solid;
+    background-color: bisque;
+    border-color: green;
+    font-family: sans-serif;
+    font-size: small;
+    border-collapse: collapse;
+  }
+  td{
+      border: solid;
+      background-color: white;
+  }
+  th{
+      border: solid;
+      background-color: burlywood;
+  }
+  tbody tr:nth-child(odd):hover td:nth-child(odd):hover{
+      background-color: rgb(191, 233, 233);
+  }
+  tbody tr:nth-child(even):hover td:nth-child(even):hover{
+    background-color: rgb(191, 233, 233);
+}
+tbody tr:nth-child(odd):hover td:nth-child(even):hover{
+    background-color: rgb(195, 233, 191);
+}
+tbody tr:nth-child(even):hover td:nth-child(odd):hover{
+    background-color: rgb(195, 233, 191);
+}
+
